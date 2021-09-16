@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(221, 202, 238);
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+   margin-left: 30pxpx;
+}
+
+.fname:hover {
+    background-color: rgb(229, 215, 243);
+}
+
+.email:hover {
+    background-color: rgb(229, 215, 243);
+}
+
+.msg:hover {
+    background-color: rgb(229, 215, 243);
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+}
+
+input, textarea {
+    outline-color: blueviolet;
+    border: 2px solid violet
+}
+
+::placeholder {
+    color: violet;
+}
+
+fieldset {
+    max-width: fit-content;
+    border-radius: 6px;
+    border: solid 2px rgb(138, 45, 141);
+}
+
+form p {
+    font-size: 18px;
+}
+
+.submit-btn {
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    transition-duration: 0.4s;
+    color: mediumorchid;
+}
+
+.submit-btn:hover {
+    background-color: violet;
+    color: white;
+}
