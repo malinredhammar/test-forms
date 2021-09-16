@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="">
+        <fieldset>
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Your full name" class="fname"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" class="email"><br>
+
+        <label for="msg">Your message</label><br>
+        <textarea name="msg" id="msg" class="msg"></textarea><br>
+
+        <div class="checks">
+            <input type="checkbox" name="copymail"
+            id="copymail">
+            <label for="copymail">Send copy to my email</label>
+
+
+        </div>
+
+        <div class="checks">
+            <p>Preferred method of contact:</p>
+
+            <input type="radio" name="contact"
+            id="contactemail" value="email">
+            <label for="contactemail">Email</label>
+
+            <input type="radio" name="contact" 
+            id="contacttel" value="phone"> 
+            <label for="contacttel">Phone call</label>
+
+            <input type="radio" name="contact"
+            id="contacttext" value="text">
+            <label for="contacttext">Text message</label>
+        </div>
+
+        <input type="submit" id="submit"
+        value="Submit" class="submit-btn">
+    </fieldset>
+        
+    </form>
+
+</body>
+</html>
